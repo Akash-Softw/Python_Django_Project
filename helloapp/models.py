@@ -8,3 +8,5 @@ class Member(models.Model):
 
 
 # Create your models here.
+  def __str__(self):
+    return f"{self.firstname} {self.lastname} {self.city} {self.age} "
